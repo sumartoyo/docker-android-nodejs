@@ -1,6 +1,6 @@
 FROM runmymind/docker-android-sdk:latest
 
-ENV NODEJS_VERSION=6.14.2 \
+ENV NODEJS_VERSION=10.14.1 \
     PATH=$PATH:/opt/node/bin
 
 WORKDIR "/opt/node"
